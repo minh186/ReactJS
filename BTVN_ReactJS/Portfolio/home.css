@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(8, 250, 117);
+    padding: 20px 0;
+}
+
+li {
+    padding: 0 40px;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    margin: auto;
+}
+
+img {
+    border-radius: 100%;
+    width: 20%;
+    height: 250px;
+    display: flex;
+    margin: 30px auto;
+}
+
+h1, p {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+
