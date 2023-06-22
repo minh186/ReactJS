@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px 30px;
+    background-color: rgb(238, 236, 236);
+    margin-top: 30px;
+}
+
+.l-head, .r-head{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border: 1px solid brown;
+    background-color: yellow;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.r-head-mid {
+    margin: 0 25px;
+}
+
+.intro, .describe, .actor {
+    padding: 20px 45px;
+}
+
+.intro {
+    display: flex;
+}
+
+.l-intro {
+    width: 50%;
+}
+
+.img {
+    height: 350px;
+    border: 1px solid palevioletred;
+    background-image: linear-gradient(white, pink);
+    text-align: center;
+    line-height: 350px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.l-btns {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border: 1px solid;
+    padding: 5px 15px;
+    width: 47%;
+    border-radius: 5px;
+}
+
+.share {
+    border-color: palevioletred;
+    background-color: rgb(241, 192, 208);
+
+}
+
+.down {
+    border-color: yellow;
+    background-color: rgb(247, 247, 123);
+}
+
+.watch {
+    border-color: aqua;
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.r-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.choose button {
+    padding: 5px 10px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.inf {
+    display: flex;
+    position: relative;
+}
+
+.main-inf {
+    position: absolute;
+    left: 100px;
+}
+
+.descr-main {
+    border: 1px solid black;
+    padding: 20px 10px;
+    text-align:justify;
+    margin-top: 10px;
+}
+
+.actor-form {
+    display: flex;
+}
+
+.actor-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.avt {
+    width: 100px;
+    height: 100px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
