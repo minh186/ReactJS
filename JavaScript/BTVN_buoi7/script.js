@@ -101,17 +101,15 @@
 
 
 // B9:
-// let s = Number('1a2b');
-// let str;
+// let s = '';
 // while(isNaN(s)){
 //     s = Number(prompt('Nhập chuỗi s(Chỉ gốm chữ số): '));
 // }
-// str = s.toString();
 // let i = Number(prompt("Nhập số I: "));
-// while(str.length < i){
-//     str = '0' + str;
+// while(s.length < i){
+//     s = '0' + s;
 // }
-// console.log(str);
+// console.log(s);
 
 
 
